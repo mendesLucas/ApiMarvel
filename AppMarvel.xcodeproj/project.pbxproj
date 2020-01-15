@@ -12,6 +12,9 @@
 		1A3685FF2340D5F300151419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3685FE2340D5F300151419 /* Assets.xcassets */; };
 		1A3686022340D5F300151419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3686002340D5F300151419 /* LaunchScreen.storyboard */; };
 		1A36860D2340D5F300151419 /* AppMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A36860C2340D5F300151419 /* AppMarvelTests.swift */; };
+		1A7E1DD423CFBB7A00B46BA8 /* MarvelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E1DD323CFBB7A00B46BA8 /* MarvelViewModel.swift */; };
+		1A7E1DD623CFBBBC00B46BA8 /* MarvelCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E1DD523CFBBBC00B46BA8 /* MarvelCellViewModel.swift */; };
+		1A7E1DD823CFBBD200B46BA8 /* DetalheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E1DD723CFBBD200B46BA8 /* DetalheViewModel.swift */; };
 		A06571F52340E8C8008B722B /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06571F42340E8C8008B722B /* DetalheViewController.swift */; };
 		A06571F72340EA01008B722B /* MarvelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06571F62340EA01008B722B /* MarvelTableViewController.swift */; };
 		A06571F92340EA76008B722B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06571F82340EA76008B722B /* HomeViewController.swift */; };
@@ -44,6 +47,9 @@
 		1A3686082340D5F300151419 /* AppMarvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMarvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A36860C2340D5F300151419 /* AppMarvelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarvelTests.swift; sourceTree = "<group>"; };
 		1A36860E2340D5F300151419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7E1DD323CFBB7A00B46BA8 /* MarvelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelViewModel.swift; sourceTree = SOURCE_ROOT; };
+		1A7E1DD523CFBBBC00B46BA8 /* MarvelCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCellViewModel.swift; sourceTree = SOURCE_ROOT; };
+		1A7E1DD723CFBBD200B46BA8 /* DetalheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewModel.swift; sourceTree = SOURCE_ROOT; };
 		29280E93D60AB965744C29ED /* Pods-AppMarvelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMarvelTests.release.xcconfig"; path = "Target Support Files/Pods-AppMarvelTests/Pods-AppMarvelTests.release.xcconfig"; sourceTree = "<group>"; };
 		33A697AC0C3693F649B0237A /* Pods_AppMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0D52DDAE60BFC94EEC8329 /* Pods-AppMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMarvel.release.xcconfig"; path = "Target Support Files/Pods-AppMarvel/Pods-AppMarvel.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +165,9 @@
 		A06571F02340E81C008B722B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1A7E1DD323CFBB7A00B46BA8 /* MarvelViewModel.swift */,
+				1A7E1DD523CFBBBC00B46BA8 /* MarvelCellViewModel.swift */,
+				1A7E1DD723CFBBD200B46BA8 /* DetalheViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -368,9 +377,12 @@
 				A06572002341260F008B722B /* MarvelTableViewCell.swift in Sources */,
 				A06571FB2340EDA9008B722B /* MarvelClasses.swift in Sources */,
 				A06571FE2340F1B4008B722B /* ApiMarvel.swift in Sources */,
+				1A7E1DD423CFBB7A00B46BA8 /* MarvelViewModel.swift in Sources */,
+				1A7E1DD623CFBBBC00B46BA8 /* MarvelCellViewModel.swift in Sources */,
 				A06571F72340EA01008B722B /* MarvelTableViewController.swift in Sources */,
 				A06571F52340E8C8008B722B /* DetalheViewController.swift in Sources */,
 				1A3685F82340D5F100151419 /* AppDelegate.swift in Sources */,
+				1A7E1DD823CFBBD200B46BA8 /* DetalheViewModel.swift in Sources */,
 				A06571F92340EA76008B722B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
