@@ -10,4 +10,6 @@
   IOS 9.3
   Swift 4.0
   
-  
+  <h4>Cobertura de teste<h4>
+  20% coberto.
+
